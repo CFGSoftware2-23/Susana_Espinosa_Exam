@@ -1,0 +1,23 @@
+Theory Questions
+
+1.1 To annotate decorators we use the character “@”
+
+1.2 An example of search algorithm is the binary search, which allow us to divide the interval search repeatedly until it finds the target interval or becomes empty.
+
+An example of sort algorithm is the Bubble sort which is an algorithm that goes through a list comparing elements and replacing them with the correct element if they are in the wrong order.
+
+1.3. Big O annotations helps us knowing the time that it takes to run data.
+
+●	O(1)  denotes constant (or linear) time complexity and this means that the time that it takes to execute doesn’t depend on the size of the data.
+●	O(N2) denotes quadratic time complexity. This means that the time that it takes to run grows quadratically to the data input. So basically if you have 10 lines of code and it takes 10 seconds to execute, if you have 20 lines of code it will take 40 seconds.
+●	O(NlogN) denotes a higher than constant time complexity but lower than quadratic. It can execute  anywhere in between those two values.
+
+1.4  Advantages of using Linked Lists: Easy to change size and ability to insert or delete elements within the linked list. Disadvantages: difficult to find specific elements within that linked list and it takes extra memory to store the references to the next element. This can lead to slow down some operations.
+
+1.5 Generators and Iterators both loop through values but generators are a more specific and memory efficient way to create repetitive sequences of values, while iterators are used for navigating existing collections.
+
+1.6  This function named “Mistery” takes a string as an input to count the number of uppercase vowels. It creates the list “vowels”with the upper case vowels and then creates a list “unique_vowels” to store unique uppercase vowel from the string.
+
+1.7 Key-value pairs are hashed to allow efficient and quick access to values based on their associated keys. Hashing transforms a string or number into an index within a hash table. This index is then used to find the value associated with that key.
+
+Values are hashed to retrieve those values associated with keys faster and time-constant instead of searching through a list of keys and to be able to better organise large datasets making it more memory efficient.

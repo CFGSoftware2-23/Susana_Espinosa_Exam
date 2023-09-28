@@ -1,0 +1,30 @@
+Explain how a value would be found using a tree
+
+1.	Start at the top (the root).
+2.	Compare the value you're looking for with the current node's value.
+3.	Decide if you should go left or right based on the comparison.
+4.	Move to the chosen side and repeat steps 2-3.
+5.	Keep going until you find the value or reach the end of the tree.
+
+Walkthrough your algorithm searching for the value ‘10’
+
+1.	Start at the top: Begin at the top of the tree, which is the root node with a value of 10.
+2.	Compare with the Current Node: Compare the value '10' with the current node's value, which is also '10'.
+3.	Decide Where to Go: Since the value '10' matches the current node's value, we've found it. There's no need to move left or right.
+4.	Stop: The search is complete.
+
+Walkthrough your algorithm searching for the value ‘13’
+- Start at the top: Begin at the top of the tree, which is the root node '10'.
+- Compare with the Current Node: Check if '13' is equal to '10'. It's not a match.
+- Decide Where to Go: Since '13' is greater than '10', go to the right because bigger values are on the right side.
+- Move to the Right: We move to the right subtree.
+- Compare with the Current Node: Check if '13' is equal to '15'. It's not a match.
+- Decide Where to Go: Since '13' is less than '15', go to the left because smaller values are on the left side.
+- Move to the Left: We move to the left subtree.
+-  Compare with the Current Node: Check if '13' is equal to '11'. It's not a match.
+- Decide Where to Go: Since '13' is greater than '11', go to the right subtree.
+- Stop: There's no right subtree for '11', and we haven't found '13', so '13' is not in the tree
+
+
+
+(UNABLE TO DRAW THE BST WITHIN THIS FILE. SENT SEPARATELY)
